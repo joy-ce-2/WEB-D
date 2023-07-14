@@ -1,0 +1,21 @@
+.flexbox > div{
+    background-color: purple;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+}
+.flexbox{
+    display: flex;
+    /* flex-direction:column ;
+    flex-direction:column-reverse; */
+    /* flex-wrap: nowrap; */
+    /* justify-content: flex-end; */
+    /* justify-content:space-evenly; */
+    /* justify-content is for horizontal */
+}
+#five{
+    flex-grow: 3;
+    flex-shrink: 3;
+}
