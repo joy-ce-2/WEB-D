@@ -1,0 +1,21 @@
+.parent>div {
+    background-color: aquamarine;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+/* Notice that when the flex direction is a column, justify-content changes to the vertical and align-items to the horizontal */
+.parent {                                       
+    height: 50%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+    /* justify-content: flex-end; */
+    align-items: stretch;
+}
+
+#five {
+    /* flex-grow: 3; */
+    flex-shrink: 3;
+}

@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    margin: 0;
+
+}
+#fb{
+    font-size: 45px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    margin-top: 0px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3b5998;
+    height: 50px;
+    
+    
+
+}
+.main{
+    display: flex;
+    color: white;
+    
+}
+#mail{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+#pass{
+    display: flex;
+    flex-direction: column;
+}
+#log{
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#matter{
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
+#parent{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display:flow-root;
+}
+
+.basic{
+    height: 30px;
+    margin-top: 10px;
+}
+#wdt{
+    width:70%;
+}
+input{
+    border-radius: 2.5px;
+    border-width: thin;
+
+}
+select{
+    width: 70px;
+    height: 25px;
+    background-color: #DCDCDC;
+    margin:2.5px;
+}
+#parent2{
+    display:flex;
+    
+}
+#create{
+    height: 40px;
+    padding: 10px;
+    background-color: #5ea942;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    border-color: white;
+}
