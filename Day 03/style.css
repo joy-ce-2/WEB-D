@@ -1,0 +1,22 @@
+body{
+    background-color:deeppink;
+}
+.lorem{
+    width: 50em;
+    /* background-color: darkslategray;
+    cursor: pointer; */
+}
+.newClass{
+    background-color: aquamarine;
+}
+.lorem:hover{
+    background-color: darkslateblue;
+}
+.lorem > pre{
+    cursor: pointer;
+    font-size:1.5em;
+}
+.lorem > pre:hover{
+    color:ghostwhite;
+    font-size: 0.5em;
+}

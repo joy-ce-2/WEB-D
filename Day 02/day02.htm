@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>day02</title>
+</head>
+
+<body>
+    <marquee behavior="alternate" direction="right">joyce</marquee>
+    Name:
+    <form action="mailto:joycemichael0207@gmail.com" method="post">
+        <input type="text" name="name" placeholder="please enter your name" required>
+        <!--required keyword is used to make the inpust neccesary to insert-->
+        <br><br>
+
+        <!--radio buttons-->
+        Gender:<br>
+        male:<br>
+        <input type="radio" name="gender" value="male" id="gender-m">
+        <label for="gender-m">male</label>
+        <!--to make the word clickable as the bullet button we use label tag-->
+        <!--"for" attribute is used to connect the content with unique id-->
+        <br>
+        female:<br>
+        <input type="radio" name="gender" value="female" id="gender-f">
+        <label for="gender-f">female</label>
+        <br>
+        others:<br>
+        <input type="radio" name="gender" value="others" id="gender-o">
+        <label for="gender-o">others</label>
+        <br><br>
+
+        skills:
+        <input type="checkbox" name="skill1" ID="skill1" value="HTML">
+        <label for="skill1">HTML</label>
+        <input type="checkbox" name="skill2" ID="skill2" value="CSS">
+        <label for="skill2">CSS</label>
+
+
+        <br>
+        list of friends
+        <select name="list of students" required>
+            <option>joyce</option>
+            <option>kirti</option>
+            <option>kanti</option>
+            <option>mehak</option>
+            <option selected>---list of friends---</option>
+        </select>
+
+
+        <br><br><br>
+        <input type="submit" name="submit" value="submit">
+        <input type="reset" name="Reset" value="Reset">
+        <input type="button" name="Reset" value="Reset">
+        <!--spot the difference-->
+
+    </form>
+</body>
+
+</html>

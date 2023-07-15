@@ -1,0 +1,63 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    background-color: rgb(235, 229, 270);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 0.25px;
+    background-color: #0084FF;
+    background-image: linear-gradient(#4e69a2,#3b5998 50%);
+    display: flex;
+    justify-content: space-around;
+} 
+
+#brand{
+    color: azure;
+    text-decoration:none;
+    font-size: 250%;
+    align-self: center;
+    font-weight:550;
+}
+header form {
+    color: white;
+    margin-left: 35px;
+}
+header form ul{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+header form li{
+    align-self: flex-start;
+    margin-left: 20px;
+    padding: 0.2em 0.5em;
+    font-size: 90%;
+}
+header form input{
+    margin-bottom: 0.8em;
+    height: 18px;
+
+}
+header form input[type="submit"]{
+    background-color: #4267b2;
+    border: 1px solid #08298a;
+    color:white;
+    height: 24px;
+    font-weight: bold;
+    margin-top: 35%;
+    cursor: pointer;
+
+}
+header form li a{
+    color:#98AFC7;
+    text-decoration: none;
+    font-weight: 300;
+    cursor: pointer;
+}
